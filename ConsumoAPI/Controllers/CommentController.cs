@@ -11,7 +11,11 @@ namespace ConsumoAPI.Controllers
 {
     public class CommentController : Controller
     {
-        // GET: Comment
+        /// <summary>
+        /// Se llama el metodo Comment del ConsumidorApi
+        /// </summary>
+        /// <returns>Se retornan los datos de la API</returns>
+        
         public async Task<ActionResult> Index()
         {
             if (TempData["id"]==null)

@@ -12,10 +12,10 @@ namespace ConsumoAPI.Controllers
     public class AlbumController : Controller
     {
         /// <summary>
-        /// Se llama el metodo Album del consumidorApi
+        /// Se llama el metodo Album del ConsumidorApi
         /// </summary>
         /// <returns>Se retornan los datos de la API</returns>
-        // GET: Album
+        
         public async Task<ActionResult> Index()
         {
             if (TempData["id"]==null)

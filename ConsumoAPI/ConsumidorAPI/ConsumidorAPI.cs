@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 namespace ConsumoAPI.ConsumidorAPI
 {
     /// <summary>
-    /// Se define el metodo para cada servicio a consumir y 
+    /// Se define el metodo para cada servicio a consumir
     /// </summary>
     public class ConsumidorApi
     {
