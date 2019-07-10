@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("consumir", "Home", FormMethod.Post))
+{
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Consumo API</h2>
+
+        <label id="lblid">Id:</label>
+        <input id="txtid" type="number" name="txtid" required />
+        <br />
+        <br />
+        <label id="lblmensaje">Seleccione el servicio a consumir</label>
+        <br />
+        <select id="select1" name="select1">
+            <option>Obtener Posts</option>
+            <option>Obtener Comments</option>
+            <option>Obtener Albums</option>
+            <option>Obtener Photos</option>
+        </select>
+        <br />
+        <br />
+        <input id="btnconsumir" type="submit" value="Consumir" />
+    </div>
+</div>
+}

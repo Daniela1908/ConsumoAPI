@@ -1,0 +1,18 @@
+﻿@model ConsumoAPI.Models.Comment
+@{
+    ViewBag.Title = "Comment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Comment</h2>
+
+Id: @Model.Id
+<br />
+PostId: @Model.PostId
+<br />
+Name: @Model.Name
+<br />
+Email: @Model.Email
+<br />
+Body: @Model.Body
+
